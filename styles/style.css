@@ -6,9 +6,27 @@
   font-variation-settings:
     "slnt" 0;
 }
+main{
+    background-color: black;
+}
+.para{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: 6rem;
+    margin-left: 7rem;
+}
 .display-flex{
     display: flex;
 }
+.btn-primary{
+    padding: 1rem 1.40rem;
+    border-radius: 2rem;
+    color: white;
+    margin-left: 7rem;
+    margin-top: 2rem;
+}
+/* body header */
 header{
     background-color: #232323f7;
     width: 100%;
@@ -36,4 +54,30 @@ nav li a{
 }
 .navbar-link{
     color: white;
+}
+.navbar-title{
+    justify-content: space-between;
+}
+.header{
+    color: white;
+    font-size: 4rem;
+    font-weight: 800;
+    width: 26rem;
+    height: 10rem;
+    margin-left: 7rem;
+}
+.box{
+    width: 12rem;
+    height: 5rem;
+}
+.box-1{
+    
+}
+.box-2{
+    
+}
+.img{
+    margin-right: 7rem;
+    width: 21rem;
+    height: 36rem;
 }
