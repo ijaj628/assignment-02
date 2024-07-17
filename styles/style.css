@@ -1,0 +1,39 @@
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+.display-flex{
+    display: flex;
+}
+header{
+    background-color: #232323f7;
+    width: 100%;
+    height: auto;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color: #E6533C;
+    padding-left: 7rem;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.navbar-links{
+    list-style: none;
+    gap: 3rem;
+    padding-right: 7rem;
+}
+nav li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+.navbar-link{
+    color: white;
+}
