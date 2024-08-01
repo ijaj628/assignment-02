@@ -26,7 +26,7 @@ body{
     text-align: center;
 }
 .btn-primary{
-    padding: 1rem 2rem;
+    padding: 1rem 4rem;
     border-radius: 2rem;
     color: white;
     margin-left: 7rem;
@@ -77,15 +77,16 @@ nav li a{
     height: 5rem;
     background: transparent;
     backdrop-filter: blur(5px);
-    border-radius: 2%;
+    border-radius: 7%;
+    border: 1px solid rgb(137, 135, 135);
 }
 .box-1{
-   margin-right: -75%;
-   margin-top: 12%;   
+   margin-right: -69%;
+   margin-top: 12%; 
 }
 .box-2{
-    margin-right: -45%;
-    margin-top: 29%; 
+    margin-right: -39%;
+    margin-top: 34%; 
 }
 .img{
     margin-right: 7rem;
@@ -94,6 +95,7 @@ nav li a{
 }
 .head-h4{
     color: white;
+    font-size: 2rem;
 }
 .main{
    margin-top: 10%; 
@@ -141,9 +143,48 @@ nav li a{
     height: 30rem;
     margin-top: 10%;
 }
+.bmi-chart{
+    margin-left: 10%;  
+}
+.bmi-box{
+    display: flex;
+    color: white;
+    margin-top: 25%;
+}
+.tb{
+    border: 1px solid rgb(137, 135, 135);
+    width: 10rem;
+    height: 13rem;
+}
+.tr{
+    border-bottom: 1px solid rgb(137, 135, 135);
+    text-align: center;
+}
+.bmi-calculator{
+    margin-right: 10%;
+}
 .btn{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 20%;
+}
+#bmi-id{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 8%;
+    background-color: #5a5959f7;
+    color: white;
+    font-weight: 600;
+}
+#select{
+    grid-column: 1/span 2;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3.70%;
+    background-color: #5a5959f7;
+    color: white;
+    font-weight: 600;
 }
 .team{
     width: 66rem;
@@ -158,9 +199,6 @@ nav li a{
     border-radius: 2%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-}
-.team-img-box{
-
 }
 .text-hp{
     margin-top: -15%;
@@ -189,4 +227,52 @@ footer{
 }
 .list ul li{
     list-style: none;
+}
+@media screen and (max-width: 576px){
+   .display-flex{
+    flex-direction: column;
+   } 
+   .header{
+    width: auto;
+   }
+   .nav-title{
+    padding-left: 0;
+   }
+   .img-0{
+    grid-template-columns: repeat(1, 1fr);
+   }
+   .run-container{
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+   }
+   .img-2 img{
+    margin-top: 6rem;
+    margin-left: 1.5rem;
+   }
+   .bmi{
+    height: auto;
+   }
+   .team{
+      width: 100%;
+      height: auto;
+      margin: auto;
+   }
+   .team-img{
+    grid-template-columns: repeat(1, 1fr);
+    width: 90%;
+    height: auto;
+   }
+   footer{
+    width: 100%;
+    height: auto;
+   }
+   .footer{
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    margin-left: 0;
+   }
+   footer hr{
+    margin-top: 100%;
+   }
 }
