@@ -64,6 +64,9 @@ nav li a{
 .navbar-title{
     justify-content: space-between;
 }
+.ham-burger{
+    display: none;
+}
 .header{
     color: white;
     font-size: 4rem;
@@ -238,6 +241,12 @@ footer{
    .nav-title{
     padding-left: 0;
    }
+   .navbar-links{
+    display: none;
+   }
+   .ham-burger{
+    display: unset;
+   }
    .img-0{
     grid-template-columns: repeat(1, 1fr);
    }
@@ -248,10 +257,22 @@ footer{
    }
    .img-2 img{
     margin-top: 6rem;
-    margin-left: 1.5rem;
    }
    .bmi{
     height: auto;
+   }
+   #bmi-id{
+    font-weight: 300;
+   }
+   #select{
+    font-weight: 300;
+   }
+   .bmi-p,
+   .head-h4{
+    text-align: center;
+   }
+   .btn{
+    gap: 1rem;
    }
    .team{
       width: 100%;
