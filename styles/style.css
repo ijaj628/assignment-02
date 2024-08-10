@@ -87,6 +87,14 @@ nav li a{
     height: 10rem;
     margin-left: 7rem;
 }
+.ball{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #E6533C;
+    border-radius: 50%;
+    margin-top: 60%;
+    margin-right: 30%;
+}
 .box{
     width: 10rem;
     height: 5rem;
@@ -94,6 +102,7 @@ nav li a{
     backdrop-filter: blur(5px);
     border-radius: 7%;
     border: 1px solid rgb(137, 135, 135);
+    padding-left: 2%;
 }
 .box-1{
    margin-right: -69%;
@@ -184,6 +193,9 @@ nav li a{
     gap: 2rem;
     margin-top: 20%;
 }
+.bmi-btn{
+    margin-left: 0;
+}
 #bmi-id{
     padding-top: 3%;
     padding-bottom: 3%;
@@ -259,12 +271,20 @@ footer{
    }
    .nav-title{
     padding-left: 0;
+    margin-left: 9%;
    }
    .navbar-links{
     display: none;
    }
+   .fa-bars{
+    color: #FFFFFF;
+   }
    .ham-burger{
     display: block;
+    background-color: rgb(48, 47, 47);
+    width: 24px; 
+    height: 24px;
+    margin-right: 9%;
    }
    .header{
     margin-left: 2rem;
@@ -302,6 +322,13 @@ footer{
    }
    .img-2 img{
     margin-top: 6rem;
+    margin-left: 13%;
+    width: 17.9rem;
+    height: 10.6rem;
+   }
+   .run-btn{
+    width: 17.9rem;
+    height: 4rem;
    }
    .bmi{
     height: auto;
@@ -313,11 +340,17 @@ footer{
     font-weight: 300;
    }
    .bmi-p,
-   .head-h4{
+   .bmi-head{
     text-align: center;
    }
    .btn{
     gap: 0.8rem;
+    width: 22rem;
+    height: 10.5rem;
+    margin-left: 5%;
+   }
+   .bmi-btn{
+    margin-left: 5%;
    }
    .team{
       width: 100%;
@@ -328,6 +361,7 @@ footer{
     grid-template-columns: repeat(1, 1fr);
     width: 90%;
     height: auto;
+    margin-left: 5%;
    }
    .team-img-box img{
     padding: 15px 0 40px 20px;
