@@ -79,6 +79,13 @@ nav li a{
 .ham-burger{
     display: none;
 }
+.ham-burger-1{
+    margin-right: -36.5%;
+    margin-top: 25%;
+}
+.ham-burger-2{
+    display: none;
+   }
 .header{
     color: white;
     font-size: 4rem;
@@ -105,7 +112,7 @@ nav li a{
     padding-left: 2%;
 }
 .box-1{
-   margin-right: -69%;
+   margin-right: -70%;
    margin-top: 12%; 
 }
 .box-2{
@@ -281,10 +288,23 @@ footer{
    }
    .ham-burger{
     display: block;
-    background-color: rgb(48, 47, 47);
     width: 24px; 
     height: 24px;
     margin-right: 9%;
+   }
+   .ham-burger-1{
+     display: none;
+   }
+   .ham-burger-2{
+    display: block;
+    margin-left: 38%;
+    margin-bottom: -170%;
+   }
+   .box-ball{
+    margin-top: 20%;
+   }
+   .ball{
+    margin-top: 100%;
    }
    .header{
     margin-left: 2rem;
@@ -299,14 +319,14 @@ footer{
    }
    .box-1{
     margin-left: 12rem;
-    margin-top: 3rem;
+    margin-top: 6rem;
    }
    .box-2{
     margin-top: 8rem;
     margin-left: 1.5rem;
    }
    .img{
-    margin-top: -20rem;
+    margin-top: -22rem;
    }
    .head-p{
     margin-top: 14rem;
